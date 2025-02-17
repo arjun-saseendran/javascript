@@ -7,6 +7,8 @@ console.log(nums);
 const user = ["Arjun", 34, "Cherthala"];
 
 console.log(user);
+// Get first value from the array
+console.log(user[0]);
 
 // Multidimentional array
 const multiArray = [
