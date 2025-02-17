@@ -1,5 +1,5 @@
-var name = "Javascript",
-  age = 27,
-  place = "CA";
+var name = "Arjun";
+var num = 5;
+var isActive = true;
 
-console.log(name, age, place);
+console.log(name, num, isActive);
