@@ -30,3 +30,27 @@ console.log(person1);
 
 delete person1.stack1; // Delete data
 console.log(person1);
+
+// Declare object
+const person2 = {
+  name: "Arjun",
+  age: 34,
+  place: "Cherthala",
+};
+
+console.log(person2.name);
+console.log(person2["name"]);
+
+const product = {
+  title: "iPhone 13",
+  ram: "4GB",
+  colors: ["green", "blue", "midnight"],
+  price: {
+    green: "₹40000",
+    blue: "₹35000",
+    midnight: "₹38000",
+  },
+};
+
+console.log(product.colors[0]);
+console.log(product.price.green);
